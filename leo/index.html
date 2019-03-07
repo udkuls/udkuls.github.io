@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=Windows-1251"> 
 
   <title>leo</title>
 <!--  <script src="js/jquery-1.8.3.js"></script>  -->
@@ -27,16 +26,16 @@
   }
 
 @font-face {
-	    font-family: Mga; /* èìÿ øðèôòà äëÿ CSS ïðàâèë */
-	    src: local("Mga"), /* ïðîâåðÿåì íàëè÷èå øðèôòà â ÎÑ ïîëüçîâàòåëÿ */
-         url(fonts/Mga.ttf); /* åñëè øðèôò íå óñòàíîâëåí, òîãäà çàãðóæàåì åãî ïî óêàçàííîìó ïóòè */
+	    font-family: Mga; /* имя шрифта для CSS правил */
+	    src: local("Mga"), /* проверяем наличие шрифта в ОС пользователя */
+         url(fonts/Mga.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
   }
  
 
 ::-webkit-scrollbar 
 { /* chrome based */ 
-width: 0px; /* øèðèíà scrollbar'a */ 
-background: transparent; /* îïöèîíàëüíî */ 
+width: 0px; /* ширина scrollbar'a */ 
+background: transparent; /* опционально */ 
 
 }
 html {
@@ -71,7 +70,7 @@ p
 
 a
 {
-	text-decoration: none; /* Îòìåíÿåì ïîä÷åðêèâàíèå ó ññûëêè */
+	text-decoration: none; /* Отменяем подчеркивание у ссылки */
 	color:RGB(220,151,71); 
 	word-spacing: 0.3vw;
 	z-index:5;
@@ -456,24 +455,24 @@ transition: transform 0.5s ease;
 	</div>
 	
 		<p>
-			<a href = "">Î âûñòàâêå</a>
-			<a href="bio.html">Áèîãðàôèÿ</a>
-			<a href="#content5">Ýêñïîçèöèÿ</a>
-			<a href="#content6">Èíòåðåñíûå ôàêòû</a>
+			<a href = "">О выставке</a>
+			<a href="bio.html">Биография</a>
+			<a href="#content5">Экспозиция</a>
+			<a href="#content6">Интересные факты</a>
 		</p>
 		<img id="logo" src="img/logo.png">
-		<h1 class="secret">ÒÀÉÍÛ</h1>
-		<h1 class="leonardo">ËÅÎÍÀÐÄÎ ÄÀ ÂÈÍ×È</h1>
-		<h1 class="korshun">«ß òàê ïîäðîáíî ïèñàë î êîðøóíå ïîòîìó, ÷òî îí  ìîÿ ñóäüáà...»</h1>
-	<button class="knopka1"><h4>ÁÈËÅÒÛ</h4></button>
-	<button class="knopka2"><h4>ÊÎÍÒÀÊÒÛ</h4></button>
+		<h1 class="secret">ТАЙНЫ</h1>
+		<h1 class="leonardo">ЛЕОНАРДО ДА ВИНЧИ</h1>
+		<h1 class="korshun">«Я так подробно писал о коршуне потому, что он – моя судьба...»</h1>
+	<button class="knopka1"><h4>БИЛЕТЫ</h4></button>
+	<button class="knopka2"><h4>КОНТАКТЫ</h4></button>
 
 <a class="a_down" href="#divv2"></a>
 </div>
 
 <div class="div2" id="divv2">
 <div class="div3_1_text1">
-		Î ÂÛÑÒÀÂÊÅ
+		О ВЫСТАВКЕ
 		</div>
 <button class="knp" onclick="go();"></button>
 <section id="slider">
@@ -489,48 +488,48 @@ transition: transform 0.5s ease;
 
 <label for="s1" id="slide1">
 <div class="ctext1">
-ÀÂÒÎÌÎÁÈËÜ
+АВТОМОБИЛЬ
 </div>
 </label>
 <label for="s2" id="slide2">
 <div class="ctext1">
-ÒÀÍÊ
+ТАНК
 </div>
 </label>
 <label for="s3" id="slide3">
 <div class="ctext1">
-ÂÅ×ÍÛÉ ÄÂÈÃÀÒÅËÜ
+ВЕЧНЫЙ ДВИГАТЕЛЬ
 </div>
 </label>
 <label for="s4" id="slide4">
 <div class="ctext2">
-ÌÍÎÃÎÑÒÂÎËÜÍÀß</BR>
-ÏÓØÊÀ
+МНОГОСТВОЛЬНАЯ</BR>
+ПУШКА
 </div>
 </label>
 <label for="s5" id="slide5">
 <div class="ctext2">
-ÃÈÃÀÍÒÑÊÈÉ </br>ÀÐÁÀËÅÒ
+ГИГАНТСКИЙ </br>АРБАЛЕТ
 </div>
 </label>
 <label for="s6" id="slide6">
 <div class="ctext1">
-ÎÐÍÈÒÎÏÒÅÐ
+ОРНИТОПТЕР
 </div>
 </label>
 <label for="s7" id="slide7">
 <div class="ctext1">
-ÂÅÐÒÎË¨Ò
+ВЕРТОЛЁТ
 </div>
 </label>
 <label for="s8" id="slide8">
 <div class="ctext1">
-ÁÀÐÀÁÀÍ
+БАРАБАН
 </div>
 </label>
 <label for="s9" id="slide9">
 <div class="ctext1">
-ÁÎÌÁÀÐÄÀ
+БОМБАРДА
 </div>
 </label>
 </section>
@@ -538,13 +537,13 @@ transition: transform 0.5s ease;
 <div class="div3" id="video2">
 	<div class="div3_1">
 		<div class="div3_1_text1">
-		ÓÍÈÊÀËÜÍÀß ÒÅÕÍÎËÎÃÈß
+		УНИКАЛЬНАЯ ТЕХНОЛОГИЯ
 		</div>
 		<div class="div3_1_text2">
-		Ìû âîññîçäàëè óíèêàëüíûå </br>
-		ìåõàíèçìû Ëåîíàðäî äà Âèí÷è,</br>
-		ê êîòîðûì âû ñìîæåòå ïðèêîñíóòüñÿ</br>
-		è ïðèâåñòè èõ â äâèæåíèå.
+		Мы воссоздали уникальные </br>
+		механизмы Леонардо да Винчи,</br>
+		к которым вы сможете прикоснуться</br>
+		и привести их в движение.
 		</div>
 	</div>
 	<video id="fullscreen-bg__video">
