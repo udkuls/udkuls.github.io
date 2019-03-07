@@ -5,8 +5,8 @@
 
 ::-webkit-scrollbar 
 { /* chrome based */ 
-width: 0px; /* ширина scrollbar'a */ 
-background: transparent; /* опционально */ 
+width: 0px; /* С€РёСЂРёРЅР° scrollbar'a */ 
+background: transparent; /* РѕРїС†РёРѕРЅР°Р»СЊРЅРѕ */ 
 
 }
 html {
@@ -305,7 +305,7 @@ p
 
 a
 {
-	text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	text-decoration: none; /* РћС‚РјРµРЅСЏРµРј РїРѕРґС‡РµСЂРєРёРІР°РЅРёРµ Сѓ СЃСЃС‹Р»РєРё */
 	color:RGB(220,151,71); 
 	word-spacing: 0.3vw;
 	z-index:5;
@@ -346,10 +346,10 @@ a:hover
 </div>
   <div id="bg" >
 		<p>
-			<a href ="index.html">О выставке</a>
-			<a href="bio.html">Биография</a>
-			<a href="#content5">Экспозиция</a>
-			<a href="#content6">Интересные факты</a>
+			<a href ="index.html">Рћ РІС‹СЃС‚Р°РІРєРµ</a>
+			<a href="bio.html">Р‘РёРѕРіСЂР°С„РёСЏ</a>
+			<a href="#content5">Р­РєСЃРїРѕР·РёС†РёСЏ</a>
+			<a href="#content6">РРЅС‚РµСЂРµСЃРЅС‹Рµ С„Р°РєС‚С‹</a>
 		</p>
   </div>
 
@@ -475,14 +475,14 @@ window.location.href = "video5.html"
 }
 
 
-function scrollHorizontally(e) { //включает горизонтальный скрол элемента колесом
+function scrollHorizontally(e) { //РІРєР»СЋС‡Р°РµС‚ РіРѕСЂРёР·РѕРЅС‚Р°Р»СЊРЅС‹Р№ СЃРєСЂРѕР» СЌР»РµРјРµРЅС‚Р° РєРѕР»РµСЃРѕРј
 e = window.event || e;
-var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail))); //это шаг колеса для разных браузеров
-document.documentElement.scrollLeft -= (delta * 40); //прокручиваем всю страницу
+var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail))); //СЌС‚Рѕ С€Р°Рі РєРѕР»РµСЃР° РґР»СЏ СЂР°Р·РЅС‹С… Р±СЂР°СѓР·РµСЂРѕРІ
+document.documentElement.scrollLeft -= (delta * 40); //РїСЂРѕРєСЂСѓС‡РёРІР°РµРј РІСЃСЋ СЃС‚СЂР°РЅРёС†Сѓ
 e.preventDefault();
 };
 
-function addMouseWell(elem, callback) { //вешает кроссплатформенный обработчик на колесо мыши над элементом
+function addMouseWell(elem, callback) { //РІРµС€Р°РµС‚ РєСЂРѕСЃСЃРїР»Р°С‚С„РѕСЂРјРµРЅРЅС‹Р№ РѕР±СЂР°Р±РѕС‚С‡РёРє РЅР° РєРѕР»РµСЃРѕ РјС‹С€Рё РЅР°Рґ СЌР»РµРјРµРЅС‚РѕРј
 if (elem.addEventListener) {
 if ('onwheel' in document) {
 elem.addEventListener("wheel", callback);
