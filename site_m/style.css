@@ -10,7 +10,7 @@ background-size:100% 100%;
 background-repeat:no-repeat;
   }
 
-
+html { overflow-x: hidden; }
 * {
   margin: 0;
   padding: 0;
@@ -23,30 +23,30 @@ outline: none;
 
 ::-webkit-scrollbar 
 { /* chrome based */ 
-width: 0px; /* ширина scrollbar'a */ 
-background: transparent; /* опционально */ 
+width: 0px; /* ГёГЁГ°ГЁГ­Г  scrollbar'a */ 
+background: transparent; /* Г®ГЇГ¶ГЁГ®Г­Г Г«ГјГ­Г® */ 
 }
 
 @font-face {
-	    font-family: Croogla 4F; /* имя шрифта для CSS правил */
-	    src: local("Croogla 4F"), /* проверяем наличие шрифта в ОС пользователя */
-         url(fonts/Croogla_4F.otf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+	    font-family: Croogla 4F; /* ГЁГ¬Гї ГёГ°ГЁГґГІГ  Г¤Г«Гї CSS ГЇГ°Г ГўГЁГ« */
+	    src: local("Croogla 4F"), /* ГЇГ°Г®ГўГҐГ°ГїГҐГ¬ Г­Г Г«ГЁГ·ГЁГҐ ГёГ°ГЁГґГІГ  Гў ГЋГ‘ ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї */
+         url(fonts/Croogla_4F.otf); /* ГҐГ±Г«ГЁ ГёГ°ГЁГґГІ Г­ГҐ ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­, ГІГ®ГЈГ¤Г  Г§Г ГЈГ°ГіГ¦Г ГҐГ¬ ГҐГЈГ® ГЇГ® ГіГЄГ Г§Г Г­Г­Г®Г¬Гі ГЇГіГІГЁ */
   }
 @font-face {
-	    font-family: Stem ExtraLight; /* имя шрифта для CSS правил */
-	    src: local("Stem ExtraLight"), /* проверяем наличие шрифта в ОС пользователя */
-         url(fonts/Stem-ExtraLight.otf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+	    font-family: Stem ExtraLight; /* ГЁГ¬Гї ГёГ°ГЁГґГІГ  Г¤Г«Гї CSS ГЇГ°Г ГўГЁГ« */
+	    src: local("Stem ExtraLight"), /* ГЇГ°Г®ГўГҐГ°ГїГҐГ¬ Г­Г Г«ГЁГ·ГЁГҐ ГёГ°ГЁГґГІГ  Гў ГЋГ‘ ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї */
+         url(fonts/Stem-ExtraLight.otf); /* ГҐГ±Г«ГЁ ГёГ°ГЁГґГІ Г­ГҐ ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­, ГІГ®ГЈГ¤Г  Г§Г ГЈГ°ГіГ¦Г ГҐГ¬ ГҐГЈГ® ГЇГ® ГіГЄГ Г§Г Г­Г­Г®Г¬Гі ГЇГіГІГЁ */
   }
 @font-face {
-	    font-family: Modelica; /* имя шрифта для CSS правил */
-	    src: local("Bw Modelica SS02 Black"), /* проверяем наличие шрифта в ОС пользователя */
-         url(fonts/BwModelicaSS02-Black.otf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+	    font-family: Modelica; /* ГЁГ¬Гї ГёГ°ГЁГґГІГ  Г¤Г«Гї CSS ГЇГ°Г ГўГЁГ« */
+	    src: local("Bw Modelica SS02 Black"), /* ГЇГ°Г®ГўГҐГ°ГїГҐГ¬ Г­Г Г«ГЁГ·ГЁГҐ ГёГ°ГЁГґГІГ  Гў ГЋГ‘ ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї */
+         url(fonts/BwModelicaSS02-Black.otf); /* ГҐГ±Г«ГЁ ГёГ°ГЁГґГІ Г­ГҐ ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­, ГІГ®ГЈГ¤Г  Г§Г ГЈГ°ГіГ¦Г ГҐГ¬ ГҐГЈГ® ГЇГ® ГіГЄГ Г§Г Г­Г­Г®Г¬Гі ГЇГіГІГЁ */
   }
 
   @font-face {
-	    font-family: Kurs; /* имя шрифта для CSS правил */
-	    src: local("SignPainter-HouseScript"), /* проверяем наличие шрифта в ОС пользователя */
-         url(fonts/16397.otf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+	    font-family: Kurs; /* ГЁГ¬Гї ГёГ°ГЁГґГІГ  Г¤Г«Гї CSS ГЇГ°Г ГўГЁГ« */
+	    src: local("SignPainter-HouseScript"), /* ГЇГ°Г®ГўГҐГ°ГїГҐГ¬ Г­Г Г«ГЁГ·ГЁГҐ ГёГ°ГЁГґГІГ  Гў ГЋГ‘ ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї */
+         url(fonts/16397.otf); /* ГҐГ±Г«ГЁ ГёГ°ГЁГґГІ Г­ГҐ ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­, ГІГ®ГЈГ¤Г  Г§Г ГЈГ°ГіГ¦Г ГҐГ¬ ГҐГЈГ® ГЇГ® ГіГЄГ Г§Г Г­Г­Г®Г¬Гі ГЇГіГІГЁ */
   }
   .modelica
 {
