@@ -1,0 +1,13 @@
+#div8{
+
+position:absolute;
+top:143vw;
+
+	
+		width:100%;
+		height:83vw;
+		/*background-color:#fffff7;*/	
+		border: 1px solid red;
+		z-index:133;
+
+  }
