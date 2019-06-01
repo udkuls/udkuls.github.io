@@ -1,0 +1,82 @@
+#div1{
+position:absolute;
+		width:100%;
+		height:55.5vw;
+		background-image:url(img/div1.png);
+		background-size:100% 100%;
+		z-index:2;
+		background-repeat:no-repeat;
+
+  }
+
+#div1_text_bisness{
+position:absolute;
+line-height: 0.95;
+letter-spacing: 0.1vw;
+top: 12.2vw;
+left:18.5vw;
+font-size: 5.5vw;
+}
+#div1_text_club{
+position:absolute;
+letter-spacing: 0.15vw;
+top: 18.77vw;
+left:51vw;
+font-size: 3.8vw;
+}
+#div1_text_money{
+width:100%;
+text-align:center;
+position:absolute;
+letter-spacing: 0.1vw;
+top: 43vw;
+line-height: 1.25;
+font-size: 3.1vw;
+}
+
+#arrow{
+	position:absolute;
+	top:35.5vw;
+	left:23vw;
+	width:auto;
+	height:8.5vw;
+	z-index:5;
+}
+#text_test{
+	font-size:2.7vw;
+color:#1F1F1F;
+letter-spacing: 0.2vw;
+}
+
+.b1 {
+position:absolute;
+top:35vw;
+left:37.8vw;
+  background-color: #ffe033;
+  border: 0;
+  outline: 0;
+  padding: 1vw 4vw;
+
+  font-family: monospace;
+  box-shadow: 0px 5px 10px #362c12;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 5vw;
+  border-bottom: 4px solid #d6ae01;
+}
+.b1:hover {
+  box-shadow: 0px 15px 25px -5px #362c12;;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+.b1:active {
+  box-shadow: 0px 4px 8px #362c12;;
+  -webkit-transform: scale(0.98);
+  transform: scale(0.98);
+}
+
+#div6_btn{
+top:72vw;
+left:39vw;
+}
