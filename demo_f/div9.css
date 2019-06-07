@@ -1,0 +1,141 @@
+#div8_5{
+
+position:inherit;
+top:220.5vw;
+left:0;
+right:0;
+margin:auto;
+			
+		width:100%;
+		height:85vw;
+		z-index:130;
+		background-color:#fffbff; 
+		 
+
+  }
+
+.div85_text1{
+position:absolute;
+top:33.5vw;
+font-size:3.8vw;
+z-index:1000;
+}
+
+#div9{
+
+position:inherit;
+top:261vw;
+left:0;
+right:0;
+margin:auto;
+	
+		width:70vw;
+		height:40vw;
+		z-index:1000;
+		 
+		 
+
+  }
+  
+  /* Основной блок */
+.owl-wrapper-outer {
+	
+	border: 1px solid #777;
+	border-radius: 1px;
+	overflow: hidden;
+	background: white;
+	box-shadow:  0 0 12px rgba(0,0,0,0.9); 
+
+}
+
+/* 1 квадратик карусели */
+.carousel-element {
+	
+	left:0;
+	right:0;
+	margin:auto;
+	width:70vw;
+	height:38vw;
+	text-align: center;
+	font-size: 300%;
+	border-right: 1px solid #777;
+}
+/* Блок с точками */
+.owl-pagination {
+	position:absolute;
+	top: 40.5vw;
+	width:100%;
+
+	
+	text-align: center; /* Выравниваем точки по-середине */
+	
+}
+/* 1 Точка */
+.owl-page {
+	width: 0.9vw;
+	height: 0.9vw;
+	border: 1px solid #777;
+	display: inline-block;
+	background: white;
+	margin: 0.7vw;
+	border-radius: 3vw;
+}
+/* Активная точка */
+.owl-page.active {
+	background: #777;
+}
+
+.pic_all{
+
+		background-size:70% 100%;
+		background-position: center;
+		z-index:2;
+		background-repeat:no-repeat;
+}
+.pic1{
+	background-image:url(img/1.jpeg);
+
+}
+.pic2{
+	background-image:url(img/2.jpeg);
+
+}
+.pic3{
+	background-image:url(img/3.jpeg);
+		
+}
+.pic4{
+	background-image:url(img/4.jpeg);
+	
+}
+.pic5{
+	background-image:url(img/5.jpeg);
+	background-size: 55% 100%;
+	
+}
+.pic6{
+	background-image:url(img/6.jpeg);
+	
+}
+
+
+#js-prev{
+	
+	height:5vw;
+	position:absolute;
+	top:55.9vw;
+	left:8vw;
+	z-index:100;
+
+}
+
+#js-next{
+	
+		height:5vw;
+	position:absolute;
+	top:55.9vw;
+	right: 8vw;
+	z-index:100;
+
+	
+}
