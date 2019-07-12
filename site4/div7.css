@@ -1,0 +1,28 @@
+#div7{
+
+position:absolute;
+top:80vw;
+width:100%;
+height:62vw;
+		background-image:url(img/div7.png);
+		background-size:100% 100%;
+	
+		background-repeat:no-repeat;
+
+z-index:139993;
+
+  }
+#div7_text{
+	position: absolute;
+	top: 15vw;
+	left: 7vw;
+	width: 70vw;
+	text-align: left;
+	font-size: 1.9vw;
+
+	line-height: 1.65;
+	color: #e0ddd7;
+}
+    
+ 
+   

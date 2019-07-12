@@ -1,0 +1,172 @@
+@media screen and (max-width:1500px) {
+    .beAbleTo > div {width: 20%;}
+    .beAbleTo > div > p {font-size: 16px; line-height: 20px;}
+    .beAbleTo > div > p.heading {margin: 10px auto 20px auto; font-size: 16px; line-height: 20px; min-height: 30px;}
+}
+
+@media screen and (max-width:1250px) {
+    header {background: url('../img/header_person_img_var3.png') 30px calc(100% - 0px) / 400px auto no-repeat,
+        url('../img/header_bg.jpg') center center / cover no-repeat;}
+    header h2 {margin: 40px auto;}
+    header h2 > span {background: rgba(1,9,25,0.75);}
+    header h2 > span.num {padding: 10px 0 10px 15px;}
+    header h2 > span.text {padding: 10px 15px 10px 0;}
+    
+    .newbieAndProf > .nap_inner > .sectionInner {padding-right: 15px; padding-left: 15px;}
+}
+
+@media screen and (max-width:1180px) {
+    header ul.steps {padding: 8px 15px;}
+    .workToFastMoney .companies, .workToFastMoney p {padding: 0 15px;}
+    
+    .oneTwoTree {padding: 60px 15px;}
+    ul.oTT_needs > li.oTT_needsThree {width: 100%; margin-top: 50px;}
+    ul.oTT_needs > li.oTT_needsThree.flex_jusStart {justify-content: center; -webkit-justify-content: center;}
+    ul.oTT_needs > li.oTT_needsOne, ul.oTT_needs > li.oTT_needsTwo {width: 50%;}
+    ul.oTT_needs > li.oTT_needsOne.flex_jusStart, ul.oTT_needs > li.oTT_needsTwo.flex_jusStart {justify-content: center; -webkit-justify-content: center;}
+    
+    .videoBlogers > .vbVideo:nth-child(1) {width: 100%; margin: 0 auto;}
+    .videoBlogers > .vbVideo:nth-child(2), .videoBlogers > .vbVideo:nth-child(3) {width: 100%; margin: 20px auto 0 auto;}
+}
+
+@media screen and (max-width:1075px) {
+    header {background:  url('../img/header_bg.jpg') center center / cover no-repeat;}
+    header h1 {text-align: center; padding: 0;}
+    header ul.steps {padding: 15px;}
+    header ul.steps > li:nth-child(1),
+    header ul.steps > li:nth-child(2),
+    header ul.steps > li:nth-child(3) {width: 40%;}
+    header ul.steps > li:nth-child(3) {margin: 30px auto 0 auto; padding: 30px 15px 0 15px; border-top: 1px solid var(--color3);}
+    
+    header h2 > span {background: none; padding: 0;}
+    
+    .beAbleTo > div {width: 235px; margin: 0 calc((100% - 470px)/4) 30px calc((100% - 470px)/4);}
+    .beAbleTo {padding-bottom: 56px;}
+    
+    .resultInner .sectionInner {padding: 0 15px;}
+}
+
+@media screen and (max-width:900px) {
+    header {background:  url('../img/header_bg.jpg') center left / cover no-repeat;}
+    header ul.steps {margin: 50px auto 0 auto;}
+    header ul.steps > li:nth-child(1),
+    header ul.steps > li:nth-child(2),
+    header ul.steps > li:nth-child(3) {width: 60%; margin: 30px auto 0 auto;}
+    header ul.steps > li:nth-child(1) {margin: 0 auto;}
+    header ul.steps > li:nth-child(3) {padding: 0; border-top: none;}
+    
+    .nineties > .sectionInner > h2 {font-size: 24px; line-height: 26px;}
+    .nineties > .sectionInner {margin: 50px auto;}
+    .nineties > .sectionInner > img {width: 50%;}
+    .nineties > .sectionInner > p {font-size: 17px; line-height: 21px;}
+    .nineties > .sectionInner > .signature > p.maybe {font-size: 20px;}
+    .nineties > .sectionInner > .signature {margin: 10px auto 15px auto;}
+    .nineties > .sectionInner > p:last-child {font-size: 15px; line-height: 19px;}
+    
+    .workToFastMoney h2 {font-size: 30px;}
+    .workToFastMoney h2 span.fastMoney {font-size: 50px;}
+    .workToFastMoney h2 span.fastMoney:after {width: 90%;}
+    
+    .workToFastMoney .companies > .companiesInner.flex_jusBetween {justify-content: center; -webkit-justify-content: center;}
+    .workToFastMoney .companies > .companiesInner > img {margin: 0 30px;}
+    .workToFastMoney .companies > .companiesInner > img:nth-child(1),
+    .workToFastMoney .companies > .companiesInner > img:nth-child(2),
+    .workToFastMoney .companies > .companiesInner > img:nth-child(3) {margin-bottom: 30px;}
+    
+    .workToFastMoney p {font-size: 20px; line-height: 30px;}
+}
+
+@media screen and (max-width:750px) {
+    ul.oTT_needs > li.oTT_needsOne, ul.oTT_needs > li.oTT_needsTwo {width: 100%;}
+    ul.oTT_needs > li.oTT_needsTwo,  ul.oTT_needs > li.oTT_needsThree {margin-top: 30px;}
+}
+
+@media screen and (max-width:700px) {
+    .sectionInner {padding-left: 10px; padding-right: 10px;}
+    header > .logo {padding: 20px 10px;}
+    header > .logo > a > img {display: block; width: 80%; margin: 0 auto;}
+    
+    header h1 {font-size: 23px; line-height: 30px;}
+    
+    header ul.steps {margin: 30px auto 0 auto;}
+    header ul.steps > li:nth-child(1),
+    header ul.steps > li:nth-child(2),
+    header ul.steps > li:nth-child(3) {width: 100%;}
+    header ul.steps > li > span.text {font-size: 15px; line-height: 20px;}
+    
+    header h2 {margin: 30px; font-size: 20px; line-height: 25px;}
+    header h2 > span.num, header h2 > span.text {padding: 0;}
+    
+    .nineties > .sectionInner > h2 {font-size: 20px; line-height: 25px;}
+    .nineties > .sectionInner > h2 {margin-bottom: 30px;}
+    
+    .nineties > .sectionInner > p {width: 90%; text-align: left;}
+    
+    .nineties > .sectionInner > .signature > p.maybe {max-width: 180px;}
+    
+    .workToFastMoney h2 span.fastMoney {font-size: 30px;}
+    
+    .workToFastMoney h2 span.fastMoney:after {height: 3px; width: 95%;}
+    
+    .workToFastMoney h2 span.takeIt {font-size: 20px;}
+    
+    .workToFastMoney h3 {margin-top: 80px;}
+    
+    .workToFastMoney .companies > .companiesInner > img:nth-child(1),
+    .workToFastMoney .companies > .companiesInner > img:nth-child(2),
+    .workToFastMoney .companies > .companiesInner > img:nth-child(3),
+    .workToFastMoney .companies > .companiesInner > img:nth-child(4), 
+    .workToFastMoney .companies > .companiesInner > img:nth-child(5),
+    .workToFastMoney .companies > .companiesInner > img:nth-child(5) {margin-bottom: 30px;}
+    
+    .workToFastMoney p {font-size: 17px; line-height: 23px; text-align: left;}
+    
+    .beAbleTo.flex, .beAbleTo > div {display: block; margin: 0 auto 30px auto;}
+    
+    .oneTwoTree {padding: 30px 15px;}
+    
+    ul.oTT_needs > li.oTT_needsTwo, ul.oTT_needs > li.oTT_needsThree {margin-top: 20px;}
+    
+    ul.oTT_needs > li > span.num, ul.oTT_needs > li > span.text {font-size: 15px;}
+    
+    ul.oTT_needs > li > span.num {padding: 0 8px; border: 1px solid var(--color5);}
+    
+    h2, .autoBiz h2, .training h2, .training h3, .newbieAndProf > h3, .clients h3, .detail_program h2, .module h3, .result h2, .reviews h2, .questions h2 {font-size: 30px}
+    .autoBiz h2 {margin-bottom: 20px;}
+    .autoBiz h2 > span {font-size: 25px; line-height: 30px;}
+    .autoBiz p, .else > p, .trs_item > span, .training p > span, .training p {font-size: 20px; line-height: 23px;}
+    .newbie, .prof {width: 100%;}
+    .newbie > ul > li, .prof > ul > li {font-size: 16px; line-height: 20px;}
+    .clients ul > li.hababa {margin-top: 50px; margin-bottom: 50px;}
+    .clients ul > li.hababa, .clients ul > li.brus, .clients ul > li.rentv {width: 100%;}
+    .clients ul > li > img {width: 90%;}
+    
+    .module ul > li {width: 100%; margin-bottom: 30px;}
+    .detail_program {padding-left: 0; padding-right: 0;}
+    
+    .module ul > li > span.heading {font-size: 18px;}
+    .module ul > li > span {font-size: 16px;}
+    
+    .module.module2 ul > li {width: 100%;}
+    
+    .makovskiy > .sectionInner {padding-left: 0; background: none;}
+    
+    .makovskiy h2 {text-align: center;}
+    
+    .makovskiy ul {padding-left: 10px; padding-right: 10px;}
+    
+    .makovskiy ul > li {font-size: 18px;}
+    
+    .prof {margin-top: 50px;}
+    
+    .reviewsItem, .reviewsItem > iframe {width: 100%;}
+    
+    .questions {padding-left: 0; padding-right: 0;}
+    
+    .questions .text {width: 100%;}
+    
+    .answer .user {display: none;}
+    
+    .videoBlogers > .vbVideo > iframe, .reviewsItem > iframe {width: 100%;}
+    
+}
