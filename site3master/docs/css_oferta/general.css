@@ -1,0 +1,89 @@
+
+
+/*===============
+======FONTS======
+=================*/
+
+@import url('https://fonts.googleapis.com/css?family=Neucha|Open+Sans:300,400,600,700|Rubik:300,400,500');
+/*
+'Open Sans', sans-serif
+'Rubik', sans-serif
+'Neucha', cursive
+*/
+
+
+
+
+
+/*========================
+======GENERAL_STYLES======
+==========================*/
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html, body, header, section, footer {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, ul, li {margin: 0; padding: 0;}
+
+ul > li {list-style-type: none;}
+
+a, button, input, textarea {outline: none !important;}
+
+
+
+
+
+/*=====================
+======FLEX_BLOCKS======
+=======================*/
+
+.flex {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.flex_jusStart {
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+}
+
+.flex_jusCenter {
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.flex_jusBetween {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+.flex_jusEnd {
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+}
+
+.flex_alignCenter {
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.flex_algnStretct {
+    align-items: stretch;
+    -webkit-align-items: stretch;
+}

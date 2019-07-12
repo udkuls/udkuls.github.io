@@ -1,0 +1,174 @@
+
+::-webkit-scrollbar 
+{ /* chrome based */ 
+width: 0px; /* ширина scrollbar'a */ 
+background: transparent; /* опционально */ 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+outline: none;
+  }
+
+@font-face {
+	    font-family: Croogla4F; /* имя шрифта для CSS правил */
+	    src: local("Croogla 4F"), /* проверяем наличие шрифта в ОС пользователя */
+         url(fonts/Croogla4F.otf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+
+  }
+  @font-face {
+	    font-family: StemExtraLight; /* имя шрифта для CSS правил */
+	    src: local("Stem ExtraLight"), /* проверяем наличие шрифта в ОС пользователя */
+         url(fonts/StemExtraLight.otf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  }
+  @font-face {
+	    font-family: Modelica; /* имя шрифта для CSS правил */
+	    src: local("Bw Modelica SS02 Black"), /* проверяем наличие шрифта в ОС пользователя */
+         url(fonts/BwModelicaSS02Black.otf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  }
+
+    @font-face {
+	    font-family: Impactd; /* имя шрифта для CSS правил */
+	    src: local("impact"), /* проверяем наличие шрифта в ОС пользователя */
+         url(fonts/impact.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  }
+
+  .modelica
+{
+font-family: 'Modelica';
+color:black;
+z-index:5;
+font-weight: normal;
+}
+
+.groler
+{
+font-family: 'Croogla4F';
+color:white;
+z-index:5;
+font-weight: normal;
+
+}
+.groler_style
+{
+font-size:16vw;
+color:#1F1F1F;
+letter-spacing: 0.01vw;
+font-weight: bold;
+width:100%;
+text-align:center;
+z-index:5;
+line-height: 1.35;
+}
+
+.stem
+{
+font-family: 'StemExtraLight';
+color:red;
+z-index:5;
+font-weight: normal;
+}
+
+.stem_style
+{
+font-size:3.1vw;
+color:#666666;
+letter-spacing: 0.01vw;
+font-weight: normal;
+width:100%;
+text-align:center;
+z-index:5;
+line-height: 1.35;
+}
+.stem_style2
+{
+font-size:2.9vw;
+color:#1F1F1F;
+letter-spacing: 0.001vw;
+font-weight: normal;
+width:100%;
+text-align:center;
+z-index:5;
+line-height: 1.5;
+left:2.1vw;
+word-spacing: 0.1vw;
+top:0.5vw;
+}
+.stem_style3
+{
+font-size:1.9vw;
+color:#666666;
+letter-spacing: 0.001vw;
+font-weight: normal;
+width:100%;
+text-align:center;
+z-index:5;
+line-height: 1.2;
+left:2.1vw;
+word-spacing: 0.1vw;
+top:0.5vw;
+}
+
+
+.impact
+{
+font-family: 'Impactd';
+color:white;
+z-index:5;
+font-weight: normal;
+
+}
+#next_div{
+position:absolute;
+top:194.5vw;
+		width:100%;
+		height:27vw;
+		
+		background-image:url(img/nextdiv.png);
+		background-size:100% 100%;
+		z-index:8;
+		background-repeat:no-repeat;
+  }
+
+  #next1_div{
+position:absolute;
+top:224.5vw;
+		width:100%;
+		height:27vw;
+		background-image:url(img/nextdiv.png);
+		background-size:100% 100%;
+		z-index:999;
+		background-repeat:no-repeat;
+  }
+
+.next_text{
+line-height: 1.5;	
+position:inherit;
+letter-spacing: 0.1vw;
+top: 4.3vw;
+font-weight: normal;
+font-size: 3vw;
+width:100%;
+text-align:center;
+z-index:3;
+}
+
+.next_text1{
+	line-height: 1.5;
+	position:inherit;
+	letter-spacing: 0.1vw;
+	top: 4.3vw;
+	font-weight: normal;
+	font-size: 3vw;
+	width:100%;
+	text-align:center;
+	z-index:3;
+}
+
+
+

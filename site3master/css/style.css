@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+::-webkit-scrollbar 
+{ /* chrome based */ 
+width: 0px; /* ширина scrollbar'a */ 
+background: transparent; /* опционально */ 
+}
+
+#div1{
+
+		width:100%;
+		
+		background-image:url(im/div1.png);
+		background-size:100% 100%;
+		z-index:1;
+		background-repeat:no-repeat;
+  }
+#div2{
+
+top: 10px;
+		background-color:red;
+		width:100%;
+		height:30vw;
+		z-index:2;
+  }
+#div3{
+		background-color:yellow;
+		width:100%;
+		height:50vw;
+  }

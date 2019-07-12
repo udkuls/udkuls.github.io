@@ -1,0 +1,27 @@
+
+
+:root {
+     --color1: #dadada;
+     --color2: #956b22;
+        --color3: #fff;
+        --color4: #c90;
+     --color5: #373737;
+     --color6: #a6803e;
+     --color7: #545f79;
+     --color8: #fffcf4;
+     --color9: #2d2f3f;
+/*    --color10: #f5f4f2;*/
+    --color10: #a7a396;
+    --color11: #2e2f37;
+    --color12: #555555;
+    --color13: #00ca70;
+    --color14: #f15e3c;
+    --color15: #f2f2f2;
+    --color16: #d7d7d7;
+    --color17: #222222;
+    --color18: #666666;
+}
+
+.oTT_needsOne > span.text, .oTT_needsOne > span.num {--color5: #00ca70;}
+.oTT_needsTwo > span.text, .oTT_needsTwo > span.num {--color5: #f15e3c;}
+.oTT_needsThree > span.text, .oTT_needsThree > span.num {--color5: #0080c6;}
