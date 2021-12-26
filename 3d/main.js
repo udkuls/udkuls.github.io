@@ -6,7 +6,7 @@
 let img = "https://psv4.userapi.com/c237331/u462011364/docs/d3/b74198cb72bc/detskaya.jpg?extra=AS4JeGuuLPw8VRuNdBrOrhRix0efvOGHE1n_oEEO_P3WwFJUlWY21HFzdx9Xj9YynLMT2uXcvMx2Lx3VXZ4gZ853GCWd75eg32-4ZXrYUfzQ1pnbCgCg8HgdNxynpexu7BVSprAlGEivgoHkhZWfqu8S"
 var camera, renderer, scene,
     mouseDownMouseX, mouseDownMouseY, mouseDownLon, mouseDownLat,
-    lon = 0, lat = 0, phi = 0, theta = 0;
+    lon = 0, lat = 180, phi = 0, theta = 0;
 
 init();
 animate();
